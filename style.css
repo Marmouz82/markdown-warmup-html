@@ -1,10 +1,19 @@
 body
 {
+    background-image: url(fond_neige.jpg);
     display: flex;
     flex-direction: column;
     font-family: Verdana, Tahoma, sans-serif;
+    margin:auto;
+    width: 500px;
+
+}
+
+h1
+{
+    font-size: 3em;
+    font-style: oblique;
     text-align: center;
-    width: 750px;
 }
 
 img
@@ -30,16 +39,57 @@ blockquote
 
 table
 {
+    background-color: black;
     border-collapse: collapse;
+    color: blanchedalmond;
+
 }
 
 tr, td, th
 {
-    border:3px solid black;
+    border:3px solid blanchedalmond;
     padding: 10px;
+    text-align: center;
+}
+
+#hobbies
+{
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+li
+{
+    text-align: center;
+    margin-right: 35px;
 }
 
 ul
 {
     list-style-type: none;
+}
+
+#count
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+#funny
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+article
+{
+    text-align: justify;
+}
+
+nav
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
